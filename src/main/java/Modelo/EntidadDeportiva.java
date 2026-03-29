@@ -8,7 +8,7 @@ package Modelo;
  *
  * @author Usuario
  */
-public class EntidadDeportiva {
+public abstract class EntidadDeportiva {
     protected String nombre;
  
     public EntidadDeportiva(String nombre) {
