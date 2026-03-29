@@ -17,11 +17,6 @@ public abstract class EntidadDeportiva {
  
     public String getNombre()              { return nombre; }
     public void   setNombre(String nombre) { this.nombre = nombre; }
- 
-    /**
-     * Retorna un String con la información de la entidad.
-     * POLIMORFISMO: implementado de forma diferente en Equipo y Liga.
-     */
     public abstract String obtenerInfo();
  
     @Override
